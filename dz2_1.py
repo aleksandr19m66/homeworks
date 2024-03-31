@@ -1,0 +1,5 @@
+number = input("Введите числа через запятую")
+list = list(map(int, number.split(',')))
+print(list)
+ttup = tuple(map(int, number.split(',')))
+print(ttup)
